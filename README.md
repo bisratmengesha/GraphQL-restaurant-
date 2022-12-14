@@ -1,15 +1,15 @@
 # GraphQL-restaurant
 # Description
-This is a simple graphql exercise for a restuarant data. 
-Upload all files. Install npm. run npm install. run node index.js.  open the browser at the port indicated on your terminal. Run the follwing queries to practice:
-mutation editrestaurants($idd: Int = 1, $name: String = "YUM") {
+# This is a simple graphql exercise for a restuarant data. 
+ Upload all files. Install npm. run npm install. run node index.js.  open the browser at the port indicated on your terminal. Run the follwing queries to practice:
+# mutation editrestaurants($idd: Int = 1, $name: String = "YUM") {
   editrestaurant(id: $idd, name: $name) {
     name
     description
   }
 }
 
-mutation setrestaurants {
+# mutation setrestaurants {
   setrestaurant(input: {
     name: "Abysinia",
     description: "Ethiopian",
@@ -19,13 +19,13 @@ mutation setrestaurants {
   }
 }
 
-mutation deleterestaurants($iid: Int = 1) {
+# mutation deleterestaurants($iid: Int = 1) {
   deleterestaurant(id: $iid) {
     ok
   }
 }
 
-query getrestaurants {
+# query getrestaurants {
   restaurants {
     name
     description
@@ -36,7 +36,7 @@ query getrestaurants {
   }
 }
 
-query getrestaurant($iid:Int=1){
+# query getrestaurant($iid:Int=1){
   restaurant(id: $iid) {
     name
     description 
