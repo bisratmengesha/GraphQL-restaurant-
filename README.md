@@ -1,1 +1,1 @@
-# GraphQL-restaurant-
+# GraphQL-restaurant
